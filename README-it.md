@@ -1,35 +1,9 @@
 <div align="center">
     <a href="README.md">English</a> | <b>Italiano</b>
 </div>
-<div align="center"><b>Questa è la repo del frontend di Zappr. Per le liste dei canali e i loghi vedere <a href="https://github.com/ZapprTV/channels">ZapprTV/channels</a>.</b></div>
-<br><br>
-<div align="center">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="readme-assets/logo-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="readme-assets/logo-light.svg" />
-        <img alt="Zappr" src="readme-assets/logo-light.svg" width="50%" />
-    </picture>
-    <br>
-    <b><i>Guarda facilmente il digitale terrestre, nazionale e locale.</i></b>
-</div>
-<br>
-<video src="https://github.com/user-attachments/assets/4b3f3346-2d0a-4d5c-8ca8-8c5fa108715d"></video>
-<h1 align="center">🎉 Provalo subito su <a href="https://zappr.stream">zappr.stream</a>! 🎉</h1>
+Questo progetto è liberamente tratto da https://github.com/ZapprTV. Probabilmente se vuoi ottenre il meglio conviene seguire direttamente lo sviluppatore di zappr. la playlist di lazzy ne deriva l'aspetto tecnico e personlizzerà poi i contenuti. la mente geniale dietro al progetto di sviluppo sarà sempre https://github.com/ZapprTV.
 
-### _[Salta alle informazioni sullo sviluppo](#informazioni-sullo-sviluppo-locale)_
-
-Con Zappr, puoi vedere facilmente il digitale terrestre, nazionale e della tua regione, gratuitamente e senza dover configurare niente! Non serve più andare a rintracciare liste e client IPTV fino a trovare qualcosa che funziona *abbastanza* bene - adesso guardare la TV in streaming è **facile**!
-
-- 🗃 **Tutto ben organizzato** - Tutti i canali hanno la stessa numerazione che hanno sul digitale terrestre, sono tutti in ordine e hanno il proprio logo vicino.
-- 📍 **Non solo canali nazionali** - Zappr ti permette di vedere i canali della tua regione con un click: basta selezionare la tua regione nelle impostazioni e i canali locali _(compresa la tua versione regionale di Rai 3!)_ verranno aggiunti all'elenco.
-- 📲 **E neanche solo i canali più famosi!** - Se un canale TV ha uno streaming ed è visibile tramite il digitale terrestre, è su Zappr. Non sono presenti solo i canali principali o i più guardati - su Zappr c'è tutto. Anche i canali visibili solo tramite HbbTV.
-- 📻 **Non solo TV, ma anche radio** - Su Zappr puoi anche ascoltare le varie radio presenti sul digitale terrestre. 
-- ⏪ **Non solo in diretta** - Puoi mettere in pausa tutti i canali, e la maggior parte dei canali ti permette anche di andare avanti e indietro. Inoltre, puoi guardare dei contenuti on-demand - RaiPlay e RaiPlay Sound sono direttamente integrati all'interno di Zappr, rispettivamente ai canali `201` e `203`.
-- 🌐 **Non solo i soliti tipi di streaming** - Visto che Zappr è una web app e non si basa su un media player tradizionale, sono visibili anche alcuni canali non visibili sulla maggior parte dei client IPTV, come quelli protetti da DRM, quelli trasmessi su Twitch, YouTube, ecc.
-- ⚡️ **Inoltre, è tutto veloce...** - Zappr carica i canali molto più velocemente che su molti client IPTV, e ha una navigazione reattiva e scattante. Non serve neanche usare il mouse per fare zapping: puoi usare i tasti `PageDown` e `PageUp` per andare avanti o indietro di un canale, oppure puoi scrivere la numerazione di un canale e poi premere `Invio` per raggiungerlo rapidamente.
-- 🧑‍💻️ **...e facile da estendere!** - Il 100% del codice di Zappr è open source, e contribuire è facile, soprattutto per quanto riguarda le liste dei canali: sono tutte in formato JSON e documentate da un JSON Schema.
-
-Se vuoi usare subito Zappr, è già pronto all'uso su [zappr.stream](https://zappr.stream). Se invece vuoi lavorarci sopra...
+di seguito le informazioni per chi volesse creare un progetto simile:
 
 # Informazioni sullo sviluppo locale
 ## Prepara l'ambiente di sviluppo
